@@ -17,7 +17,10 @@ function increaseRankBy(n) {
 
 // increaseRankBy(3);
 
-// function deepestChild()
+function deepestChild() {
+  return document.querySelector('grand-node').children().children()
+}
+
 // function increaseRankBy(n) {
 //   const list = document.querySelectorAll('ul.ranked-list li')
 //   for (var i = 0; i < list.length; i++) {
